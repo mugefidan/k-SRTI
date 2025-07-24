@@ -9,11 +9,11 @@ In particular, for every agent $x$, our method extends the preference list of $x
 # Problem Definition
 A $k$-Personalized-SRTI instance is defined as $(A,A^-,\prec^{k''})$, where:
 
--**A**: a finite set of agents
+-*A*: a finite set of agents
 
--**A⁻**: a set of unwanted pairs
+-*A⁻*: a set of unwanted pairs
 
--**≺ᵏ''**: a collection of $k$-extended preference lists.
+-*≺ᵏ''*: a collection of $k$-extended preference lists.
 
 # Overview of Files
 
@@ -24,7 +24,7 @@ A $k$-Personalized-SRTI instance is defined as $(A,A^-,\prec^{k''})$, where:
 - $iprefer(x,y,z)$: agent $x$ prefers $y$ to $z$ based on habitual preferences
 - $unwanted(x,y)$: agent $y$ is unwanted by agent $x$
 # Constant 
-- **k**: the value of $k$
+- *k*: the value of $k$
 # Output: 
 - $kPrefer(x,y,z)$: agent $x$ prefers $y$ to $z$ by degree $k$
 
