@@ -17,8 +17,7 @@ A $k$-Personalized-SRTI instance is defined as $(A,A^-,\prec^{k''})$, where:
 
 # Overview of Files
 
-```k-connected.lp```  
-This program computes the k-extended preference lists.
+```k-connected.lp``` This program computes the k-extended preference lists.
 # Input:
 - $agent(x)$: defines each agent
 - $prefer2(x,y,z)$: agent $x$ prefers $y$ to $z$ based on stated preferences
@@ -29,8 +28,7 @@ This program computes the k-extended preference lists.
 # Output: 
 - $kPrefer(x,y,z)$: agent $x$ prefers $y$ to $z$ by degree $k$
 
-```k-SRTI.lp```
-This program computes a $k$-stable matching using the $k$-extended preference lists.
+```k-SRTI.lp``` This program computes a $k$-stable matching using the $k$-extended preference lists.
 
 # How to Use
 Run the ASP solver as follows:
