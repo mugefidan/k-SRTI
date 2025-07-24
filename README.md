@@ -27,7 +27,7 @@ This program computes the k-extended preference lists.
 # Constant 
 - **k**: the value of $k$
 # Output: 
--$kPrefer(x,y,z)$: agent $x$ prefers $y$ to $z$ by degree $k$
+- $kPrefer(x,y,z)$: agent $x$ prefers $y$ to $z$ by degree $k$
 
 ```k-SRTI.lp```
 This program computes a $k$-stable matching using the $k$-extended preference lists.
