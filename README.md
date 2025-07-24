@@ -7,9 +7,12 @@ In real-world settings such as dormitory assignments, students often meet others
 In particular, for every agent $x$, our method extends the preference list of $x$ by including every agent $y$ who is not already in $x$’s preference list but “k-connected” to $x$ (i.e., $x$ and $y$ are connected a chain of $k$ PFOAF—preferred friend of a friend—relations).
 
 # Problem Definition
-A $k-Personalized-SRTI$ instance is defined as $(A,A^-,\prec^k), where:
+A $k-Personalized-SRTI$ instance is defined as $(A,A^-,\prec^k)$, where:
+
 -$A$: a finite set of agents
+
 -$A^-$: a set of unwanted pairs
+
 -$\prec^k$: a collection of $k$-extended preference lists.
 
 # Overview of Files
