@@ -8,19 +8,19 @@ In particular, for every agent $x$, our method extends the preference list of $x
 
 # Problem Definition
 A $k-Personalized-SRTI$ instance is defined as $(A,A^-,\prec^k), where:
-*$A$: a finite set of agents
-*$A^-$: a set of unwanted pairs
-*$\prec^k$: a collection of $k$-extended preference lists.
+-$A$: a finite set of agents
+-$A^-$: a set of unwanted pairs
+-$\prec^k$: a collection of $k$-extended preference lists.
 
 # Overview of Files
 
 ```k-connected.lp```  
 This program computes the k-extended preference lists.
 # Input:
-*$agent(x)$: defines each agent
-*$prefer2(x,y,z)$: agent $x$ prefers $y$ to $z$ based on stated preferences
-*$iprefer(x,y,z)$: agent $x$ prefers $y$ to $z$ based on habitual preferences
-*$unwanted(x,y)$: agent $y$ is unwanted by agent $x$
+- $agent(x)$: defines each agent
+- $prefer2(x,y,z)$: agent $x$ prefers $y$ to $z$ based on stated preferences
+- $iprefer(x,y,z)$: agent $x$ prefers $y$ to $z$ based on habitual preferences
+- $unwanted(x,y)$: agent $y$ is unwanted by agent $x$
 # Constant 
 *$k$: the value of $k$
 # Output: 
