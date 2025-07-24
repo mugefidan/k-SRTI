@@ -9,11 +9,11 @@ In particular, for every agent $x$, our method extends the preference list of $x
 # Problem Definition
 A $k$-Personalized-SRTI instance is defined as $(A,A^-,\prec^k)$, where:
 
--$A$ : a finite set of agents
+-**A**: a finite set of agents
 
--$A^-$ : a set of unwanted pairs
+-**A^-**: a set of unwanted pairs
 
--$\prec^k$ : a collection of $k$-extended preference lists.
+-**\prec^k**: a collection of $k$-extended preference lists.
 
 # Overview of Files
 
