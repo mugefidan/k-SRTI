@@ -1,4 +1,4 @@
-# $k-Personalized-SRTI$
+# $k$-Personalized-SRTI
 The aim is to find personalized good-enough matchings when there is no stable matching.
 
 # Motivation
