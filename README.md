@@ -1,6 +1,14 @@
 # $k$-Personalized-SRTI
 The aim is to find personalized good-enough matchings when there is no stable matching.
 
+The definitions, experimental evaluations, and results are described in the following article, which has been accepted for publication in TPLP 2025:
+
+"Finding Personalized Good-Enough Solutions to Unsatisfiable Stable Roommates Problems"
+MÜGE FIDAN and ESRA ERDEM
+Accepted for publication in TPLP, 2025.
+(A link will be added once the article is published.)
+
+
 ## Motivation
 In real-world settings such as dormitory assignments, students often meet others through mutual friends and sometimes build positive relationships through these indirect connections. Inspired by this, we propose a method that extends agents' preference lists by considering the networks of agent’s preferred friends.
 
